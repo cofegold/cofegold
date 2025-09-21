@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700&display=swap');
+
+body {
+  font-family: 'Vazirmatn', sans-serif;
+  background: linear-gradient(135deg, #d4af37 0%, #ffd700 25%, #b8860b 50%, #daa520 75%, #cd853f 100%);
+  position: relative;
+  min-height: 100vh;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: 
+    radial-gradient(circle at 20% 20%, rgba(139, 69, 19, 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 80% 80%, rgba(160, 82, 45, 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 40% 60%, rgba(210, 180, 140, 0.1) 0%, transparent 50%);
+  background-size: 300px 300px, 400px 400px, 250px 250px;
+  z-index: -1;
+}
+
+/* ادامه همون استایل‌هایی که توی HTML داشتی */
